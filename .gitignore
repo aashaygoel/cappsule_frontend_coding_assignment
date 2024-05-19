@@ -2,9 +2,24 @@
 
 # dependencies
 /node_modules
+
+
+.yarn/cache
+.yarn/unplugged
+.yarn/versions
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/sdks
+
 /.pnp
 .pnp.js
+.pnp.cjs
+.pnp.loader.mjs
+stats.json
+.eslintcache
 
+lib
+build
 # testing
 /coverage
 
